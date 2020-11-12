@@ -1,0 +1,7 @@
+0	cDAQ5Mod1/ai0	49.723	1.00	AC	5.000	Internal	2.00
+1	cDAQ5Mod1/ai1	47.800	1.00	AC	5.000	Internal	2.00
+2	cDAQ5Mod1/ai2	52.286	1.00	AC	5.000	Internal	2.00
+3	cDAQ5Mod1/ai3	45.654	1.00	AC	5.000	Internal	2.00
+-999	51200	10000	10.000	C:\Users\icbacon\Documents\lab09	ID	1	FALSE
+-998	FALSE	C:\Users\icbacon\Documents\LabVIEW Data	FALSE	0.000	Timed	0	0.0	4:06:53 PM11/10/2020	FALSE	FALSE	Flat	20.000	20000.000	4	dB (re 20 uPa) 	FALSE
+-997	

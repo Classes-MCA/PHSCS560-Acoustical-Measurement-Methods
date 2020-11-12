@@ -1,0 +1,8 @@
+0	cDAQ5Mod1/ai0	46.722	1.00	AC	30.000	Internal	4.00
+1	cDAQ5Mod1/ai1	45.888	1.00	AC	30.000	Internal	4.00
+-999	102400	102400	20.000	C:\Users\mander14\Desktop\560 Lab 5\Mark Group	ID	1	FALSE
+-998	FALSE	C:\Users\mander14\Documents\LabVIEW Data	FALSE	0.000	Timed	0	0.0	4:07:01 PM10/5/2020	FALSE	FALSE	Flat	20.000	20000.000	4	dB (re 20 uPa) 	FALSE
+-997	No Windscreen
+
+CH 0: mic A, no windscreen
+CH 1: mic B, no windscreen

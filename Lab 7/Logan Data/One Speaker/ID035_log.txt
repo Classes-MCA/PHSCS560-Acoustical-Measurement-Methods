@@ -1,0 +1,40 @@
+----------------------------------------------------------------------------
+Measurement Log File:
+
+File Name:	ID035
+Date:	10/22/2020
+Start Time:	06:06:12.980 PM
+Offset from GMT (h):	-6.0
+Time Zone:	Mountain Daylight Time
+File Comments:	Loudspeaker Directivity Measurements
+Physics 560
+22 Oct 2020
+Sarah Ostergaard, Joseph Seamons, Logan Mathews
+*******************************************************
+Single Speaker - White Noise
+CH0 - 14.5"
+CH1 - 60.5"
+
+Speaker Diameter - 2"
+
+Input Record Length (sec):	20.000
+Actual Record Length (sec):	20.000
+
+Number of Channels:	2
+Sampling Frequency (Hz):	20000
+Block Size:	10000
+AFR Software Version:		12.11.2.59
+
+----------------------------------------------------------------------------
+Configured Channel Settings:
+
+CH	Device Number	Sensitivity (mv/EU)	Ext. Gain (Lin.)	Input Range (+/-V)	IEPE Source	IEPE Value (mA)	
+
+0	PXI1Slot8/ai0	45.417	1.00	AC	1	Internal	4.00
+1	PXI1Slot8/ai1	46.292	1.00	AC	1	Internal	4.00
+
+----------------------------------------------------------------------------
+Motion Settings:
+
+X	Y	Z	Unit	Point #	of total
+170.000	0.000	0.000		35	37

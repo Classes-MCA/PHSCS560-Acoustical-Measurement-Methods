@@ -1,0 +1,27 @@
+----------------------------------------------------------------------------
+Measurement Log File:
+
+File Name:	ID004
+Date:	9/21/2020
+Start Time:	01:38:37.936 PM
+Offset from GMT (h):	-6.0
+Time Zone:	Mountain Daylight Time
+File Comments:	Clipping:
+
+Sine Wave
+Input Voltage = 0.05 V
+
+Input Record Length (sec):	10.000
+Actual Record Length (sec):	10.000
+
+Number of Channels:	1
+Sampling Frequency (Hz):	10000
+Block Size:	5000
+AFR Software Version:		12.11.2.59
+
+----------------------------------------------------------------------------
+Configured Channel Settings:
+
+CH	Device Number	Sensitivity (mv/EU)	Ext. Gain (Lin.)	Input Range (+/-V)	IEPE Source	IEPE Value (mA)	
+
+0	PXI1Slot8/ai0	1000.0000	1.00	AC	0.316	Internal	4.00

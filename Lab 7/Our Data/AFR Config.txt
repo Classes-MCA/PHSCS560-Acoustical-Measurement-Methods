@@ -1,0 +1,5 @@
+0	PXI1Slot8/ai0	44.589	1.00	AC	1	Internal	4.00
+1	PXI1Slot8/ai1	45.544	1.00	AC	1	Internal	4.00
+-999	20000	10000	20.000	C:\Users\mander14\Documents\LabVIEW Data	ID	1	FALSE
+-998	FALSE	C:\Users\mander14\Documents\LabVIEW Data	FALSE	0.000	Timed	0	0.0	4:11:57 PM10/26/2020	FALSE	FALSE	Flat	20.000	20000.000	4	dB (re 20 uPa) 	FALSE
+-997	

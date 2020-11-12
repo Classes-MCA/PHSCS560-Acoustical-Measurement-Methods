@@ -1,0 +1,15 @@
+.DS_Store
+*.m~
+*.asv
+*.png
+*.pdf
+*.svg
+*.jpg
+*.bin
+*.zip
+*.fig
+*.mat
+*.docx*
+*.gif
+*.wav
+*.tex

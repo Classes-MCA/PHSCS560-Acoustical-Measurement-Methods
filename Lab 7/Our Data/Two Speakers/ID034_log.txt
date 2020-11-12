@@ -1,0 +1,32 @@
+----------------------------------------------------------------------------
+Measurement Log File:
+
+File Name:	ID034
+Date:	10/26/2020
+Start Time:	05:08:27.921 PM
+Offset from GMT (h):	-6.0
+Time Zone:	Mountain Daylight Time
+File Comments:	
+
+
+Input Record Length (sec):	20.000
+Actual Record Length (sec):	20.000
+
+Number of Channels:	2
+Sampling Frequency (Hz):	20000
+Block Size:	10000
+AFR Software Version:		12.11.2.59
+
+----------------------------------------------------------------------------
+Configured Channel Settings:
+
+CH	Device Number	Sensitivity (mv/EU)	Ext. Gain (Lin.)	Input Range (+/-V)	IEPE Source	IEPE Value (mA)	
+
+0	PXI1Slot8/ai0	44.589	1.00	AC	1.000	Internal	4.00
+1	PXI1Slot8/ai1	45.544	1.00	AC	1.000	Internal	4.00
+
+----------------------------------------------------------------------------
+Motion Settings:
+
+X	Y	Z	Unit	Point #	of total
+75.000	0.000	0.000		34	0

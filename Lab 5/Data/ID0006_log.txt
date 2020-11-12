@@ -1,0 +1,29 @@
+Log File Version:	1.0
+AFR Software Version:	12.16.2.76
+----------------------------------------------------------------------------
+Measurement Log File:
+
+File Name:	ID0006
+Date:	10/5/2020
+Start Time:	16:37:32.140 
+Offset from GMT (h):	-6.0
+Time Zone:	Mountain Daylight Time
+File Comments:	No Windscreen
+
+CH 0: mic A
+CH 1: mic B, no windscreen
+
+Input Record Length (sec):	20.000
+Actual Record Length (sec):	20.000
+
+Number of Channels:	2
+Sampling Frequency (Hz):	102400
+Block Size:	102400
+
+----------------------------------------------------------------------------
+Configured Channel Settings:
+
+CH	Device Number	Sensitivity (mv/EU)	Ext. Gain (Lin.)	Coupling	Input Range (+/-V)	IEPE Source	IEPE Value (mA)	
+
+0	cDAQ5Mod1/ai0	46.722	1.00	AC	30.000	Internal	4.00
+1	cDAQ5Mod1/ai1	45.888	1.00	AC	30.000	Internal	4.00

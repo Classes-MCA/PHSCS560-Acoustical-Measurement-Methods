@@ -1,0 +1,11 @@
+0	cDAQ2Mod1/ai0	52.730	1.00	AC	5.000	Internal	2.00
+1	cDAQ2Mod1/ai1	51.391	1.00	AC	5.000	Internal	2.00
+2	cDAQ2Mod1/ai2	55.081	1.00	AC	5.000	Internal	2.00
+3	cDAQ2Mod1/ai3	51.155	1.00	AC	5.000	Internal	2.00
+4	cDAQ2Mod2/ai0	48.310	1.00	AC	5.000	Internal	2.00
+5	cDAQ2Mod2/ai1	48.759	1.00	AC	5.000	Internal	2.00
+6	cDAQ2Mod2/ai2	1.00	1.00	AC	5.000	Internal	2.00
+7	cDAQ2Mod2/ai3	1.00	1.00	AC	5.000	Internal	2.00
+-999	51200	25600	30.000	C:\Users\AcousticsMobile\Desktop\Mark 560 Data Lab 8	ID	1	FALSE
+-998	FALSE	C:\Users\AcousticsMobile\Documents\LabVIEW Data	FALSE	0.000	Timed	0	0.0	5:26:31 PM11/2/2020	FALSE	FALSE	Flat	20.000	20000.000	4	dB (re 20 uPa) 	FALSE
+-997	

@@ -1,0 +1,6 @@
+0	cDAQ4Mod1/ai0	45.7300	1.00	AC	30.000	Internal	4.00
+1	cDAQ4Mod1/ai1	46.4800	1.00	AC	30.000	Internal	4.00
+-999	51200	51200	10.000	C:\Users\AcousticsMobile\Desktop\Mark 560 Data	ID	1	FALSE
+-998	FALSE	C:\Users\AcousticsMobile\Documents\LabVIEW Data	FALSE	0.000	Timed	0	0.0	5:11:28 PM9/28/2020	FALSE	FALSE	Flat	20.000	20000.000	4	dB (re 20 uPa) 	FALSE
+-997	CH 0: SN 63617 (hole closer to input)
+CH 1: SN 57432 (hole further from input)

@@ -1,0 +1,32 @@
+Log File Version:	1.0
+AFR Software Version:	12.16.2.76
+----------------------------------------------------------------------------
+Measurement Log File:
+
+File Name:	ID0004
+Date:	10/16/2020
+Start Time:	13:37:42.331 
+Offset from GMT (h):	-6.0
+Time Zone:	Mountain Daylight Time
+File Comments:	Ch 0: Shaker read out
+Ch 1: Microphone
+
+
+Loudspeaker + Cimbal
+
+Input Pre-Trigger Record Length (sec):	0.500
+Input Post-Trigger Record Length (sec):	60.000
+Actual Pre-Trigger Record Length (sec):	0.500
+Actual Post-Trigger Record Length (sec):	60.000
+
+Number of Channels:	2
+Sampling Frequency (Hz):	102400
+Block Size:	102400
+
+----------------------------------------------------------------------------
+Configured Channel Settings:
+
+CH	Device Number	Sensitivity (mv/EU)	Ext. Gain (Lin.)	Coupling	Input Range (+/-V)	IEPE Source	IEPE Value (mA)	
+
+0	cDAQ2Mod1/ai0	1000.0000	1.00	AC	5.000	None	2.00
+1	cDAQ2Mod1/ai1	46.147	1.00	AC	5.000	Internal	2.00

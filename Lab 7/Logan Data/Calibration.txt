@@ -1,0 +1,3 @@
+PXI1Slot8/ai0	45.417
+PXI1Slot8/ai1	46.292
+Weather Data:	Temp. (deg. C)	0.000	Rel. Humidity (%)	0.000	Pressure (kPa)	0.000

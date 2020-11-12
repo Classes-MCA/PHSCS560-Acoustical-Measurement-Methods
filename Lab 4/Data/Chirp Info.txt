@@ -1,0 +1,3 @@
+50 Hz to 25,000 Hz
+
+Sampling rate of 50 kHz, and #samples of 10 kHz

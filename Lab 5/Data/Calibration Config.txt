@@ -1,0 +1,3 @@
+cDAQ5Mod1/ai0	46.722
+cDAQ5Mod1/ai1	45.888
+Weather Data:	Temp. (deg. C)	0.000	Rel. Humidity (%)	0.000	Pressure (kPa)	0.000

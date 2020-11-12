@@ -1,0 +1,9 @@
+0	cDAQ2Mod1/ai0	1000.0000	1.00	AC	5.000	None	2.00
+1	cDAQ2Mod1/ai1	46.147	1.00	AC	5.000	Internal	2.00
+-999	102400	102400	60.000	C:\Users\logan\Desktop\lab06-group2	ID	5	FALSE
+-998	FALSE	C:\Users\logan\Documents\LabVIEW Data	TRUE	0.500	Timed	0	0.0	1:18:43 PM10/16/2020	FALSE	FALSE	Flat	20.000	20000.000	4	dB (re 20 uPa) 	FALSE
+-997	Ch 0: Shaker read out
+Ch 1: Microphone
+
+
+Loudspeaker + Cimbal

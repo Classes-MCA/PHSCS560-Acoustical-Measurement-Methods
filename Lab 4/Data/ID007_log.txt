@@ -1,0 +1,27 @@
+----------------------------------------------------------------------------
+Measurement Log File:
+
+File Name:	ID007
+Date:	9/28/2020
+Start Time:	05:48:42.373 PM
+Offset from GMT (h):	-6.0
+Time Zone:	Mountain Daylight Time
+File Comments:	CH 0: 0.25" mic SN 66670 (skyward)
+CH 1: 0.50" mic SN 57432 (skyward)
+
+
+Input Record Length (sec):	20.000
+Actual Record Length (sec):	20.000
+
+Number of Channels:	2
+Sampling Frequency (Hz):	102400
+Block Size:	102400
+AFR Software Version:		12.13.0.63
+
+----------------------------------------------------------------------------
+Configured Channel Settings:
+
+CH	Device Number	Sensitivity (mv/EU)	Ext. Gain (Lin.)	Input Range (+/-V)	IEPE Source	IEPE Value (mA)	
+
+0	cDAQ4Mod1/ai0	4.2400	1.00	AC	30.000	Internal	4.00
+1	cDAQ4Mod1/ai1	46.4800	1.00	AC	30.000	Internal	4.00
