@@ -46,3 +46,4 @@ velocity = distance / delay;
 disp(strcat("Speed of Sound in Tube: ", num2str(velocity), " m/s."))
 
 %----- Anechoic Assessment -----%
+R = reflectionCoefficient(tubeArray.Microphones(1),tubeArray.Microphones(4))
