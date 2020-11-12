@@ -1,1 +1,1 @@
-# PHSCS560-Acoustical-Measurement-Methods
+# PHSCS560: Acoustical Measurement Methods
