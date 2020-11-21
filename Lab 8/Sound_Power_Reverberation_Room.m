@@ -1,4 +1,4 @@
-clear; close all; plotStyle();
+%clear; close all; plotStyle();
 
 % Some important variables
 numChannels = 6;
@@ -178,7 +178,7 @@ for i = 1:length(setup_steadyState.Microphones(1).OTOFrequencies)
     f = setup_steadyState.Microphones(1).OTOFrequencies(i);
     
     % Calculating sound power
-    Lw(i) = Lp + (10 * log(A/A0) + ...
+    SoundPower_Reverb(i) = Lp + (10 * log(A/A0) + ...
                4.34 * A/S + ...
                10 * log(1 + S*c/(8*V*f)) - ...
                25*log(427/400 * sqrt(273 / (273 + theta)) * B/B0) - ...
@@ -187,7 +187,7 @@ for i = 1:length(setup_steadyState.Microphones(1).OTOFrequencies)
 end
 
 % Plotting the results
-semilogx(frequencies,Lw,'b-o','LineWidth',2)
+semilogx(frequencies,SoundPower_Reverb,'b-o','LineWidth',2)
 title('Sound Power Level')
 xlabel('Frequency (Hz)')
 ylabel('Sound Power (dB)')
