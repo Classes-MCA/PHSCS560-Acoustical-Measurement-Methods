@@ -90,14 +90,7 @@ for i = 1:numBlocks
         
     end
     
-    if watchReverb
-        h = figure(2);
-        setup_T60_blocks.generateSpectra('FrequencyRange',frequencyRange,'BlockSize',fs/10)
-        setup_T60_blocks.compareSpectra('SpectrumType','OTO','FrequencyRange',frequencyRange)
-        ylim([0,80])
-        legend('Location','SouthEast')
-        title(strcat("OTO Spectrum at T = ",num2str(mean([upperIndex-1,lowerIndex-1])/fs)," s"))
-    end
+    setup_T60_blocks.generateSpectra('FrequencyRange',frequencyRange,'BlockSize',fs/10)
     
     % Calculating the mean OTO spectrum
     for j = 1:numChannels
@@ -108,6 +101,11 @@ for i = 1:numBlocks
     meanOTO_blocks = mean(OTOvals);
     
     if watchReverb
+        h = figure(2);
+        setup_T60_blocks.compareSpectra('SpectrumType','OTO','FrequencyRange',frequencyRange)
+        ylim([0,80])
+        legend('Location','SouthEast')
+        title(strcat("OTO Spectrum at T = ",num2str(mean([upperIndex-1,lowerIndex-1])/fs)," s"));        
         hold on
         semilogx(setup_T60_blocks.Microphones(1).OTOFrequencies,meanOTO_blocks,'k--','LineWidth',3,'DisplayName','Average')
         legend()
