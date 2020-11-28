@@ -98,7 +98,7 @@ for i = 1:numMics
     
     for j = 1:length(frequencies)
         level = micMesh.Microphones(i).OTOSpectrum(j);
-        p_squared = pref^2 * 10^(level / 10);
+        p_squared = pref^2b * 10^(level / 10);
         intensity(i,j) = p_squared / (rho * c) * area(currentChannel + 1);
     end
     

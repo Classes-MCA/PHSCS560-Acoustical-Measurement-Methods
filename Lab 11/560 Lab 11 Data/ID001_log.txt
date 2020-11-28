@@ -1,0 +1,30 @@
+----------------------------------------------------------------------------
+Measurement Log File:
+
+File Name:	ID001
+Date:	11/24/2020
+Start Time:	04:52:08.127 PM
+Offset from GMT (h):	-7.0
+Time Zone:	Mountain Standard Time
+File Comments:	Lab 11 Beamforming test measurement
+
+Speaker Angle = 0 Degrees
+
+Input Record Length (sec):	20.000
+Actual Record Length (sec):	20.000
+
+Number of Channels:	5
+Sampling Frequency (Hz):	51200
+Block Size:	51200
+AFR Software Version:		12.11.2.59
+
+----------------------------------------------------------------------------
+Configured Channel Settings:
+
+CH	Device Number	Sensitivity (mv/EU)	Ext. Gain (Lin.)	Input Range (+/-V)	IEPE Source	IEPE Value (mA)	
+
+0	PXI1Slot8/ai0	44.818	1.00	AC	1.000	Internal	4.00
+1	PXI1Slot8/ai1	51.248	1.00	AC	1.000	Internal	4.00
+2	PXI1Slot8/ai2	51.807	1.00	AC	1.000	Internal	4.00
+3	PXI1Slot8/ai3	52.162	1.00	AC	1.000	Internal	4.00
+4	PXI1Slot10/ai0	51.283	1.00	AC	1	Internal	4.00

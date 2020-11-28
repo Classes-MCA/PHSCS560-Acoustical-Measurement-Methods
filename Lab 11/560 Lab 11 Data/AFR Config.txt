@@ -1,0 +1,10 @@
+0	PXI1Slot8/ai0	44.818	1.00	AC	1.000	Internal	4.00
+1	PXI1Slot8/ai1	51.248	1.00	AC	1.000	Internal	4.00
+2	PXI1Slot8/ai2	51.807	1.00	AC	1.000	Internal	4.00
+3	PXI1Slot8/ai3	52.162	1.00	AC	1.000	Internal	4.00
+4	PXI1Slot10/ai0	51.283	1.00	AC	1	Internal	4.00
+-999	51200	51200	10.000	C:\Users\mander14\Desktop\Lab 10	ID	1	FALSE
+-998	FALSE	C:\Users\mander14\Documents\LabVIEW Data	FALSE	0.000	Timed	0	0.0	3:54:57 PM11/24/2020	FALSE	FALSE	Flat	20.000	20000.000	4	dB (re 20 uPa) 	FALSE
+-997	Lab 11 Beamforming test measurement
+
+Speaker Angle = 0 Degrees
