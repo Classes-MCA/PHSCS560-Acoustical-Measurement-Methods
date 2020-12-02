@@ -17,7 +17,7 @@ fs = 44.1e3;
 range = 3.0; % How long the array is in meters
 numMics = 61; % Number of microphones
 targetFrequency = 1000; % Hz
-angles = -90:10:90;
+angles = -90:1:90;
 for i = 1:61
     
     disp(strcat("Reading Channel ",num2str(i)))
@@ -58,7 +58,7 @@ h.Units = "Inches";
 h.Position = [2,2,12,5];
 ax = gca;
 ax.Units = "Inches";
-ax.Position = [1,0.5,7,4]
+ax.Position = [1,0.5,7,4];
 ax.Title.String = strcat("Cantina Directivity at ", num2str(targetFrequency), " Hz");
 ax.Title.FontSize = 20;
 
@@ -75,11 +75,11 @@ hleg = legend({'Measured Directivity',['Map-based' newline 'Location Estimates']
 hleg.FontSize = 15;
 hleg.Title.String = 'Legend';
 hleg.Units = "Inches";
-hleg.Position = [hleg.Position(1),hleg.Position(2),3,1.5];
+hleg.Position = [8.5,2,3,1.5];
 
 %%
 % Over-riding the angle calculations
-characterAngles = [60, 44, -2, -21, -34, -49, -55, -83]
+characterAngles = [60, 44, -2, -21, -34, -49, -55, -83];
 
 audioArray = MicArray;
 audioArray.initializeArray(length(characterAngles));
