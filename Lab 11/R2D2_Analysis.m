@@ -30,6 +30,8 @@ for i = 1:61
     
     mics.Microphones(i).Location = [-range/2 + (i-1)*range/(numMics-1), 0, 0];
     
+    mics.Microphones(i).Location = -mics.Microphones(i).Location;
+    
     mics.Microphones(i).Name = strcat("Channel ",num2str(i));
     
 end
@@ -67,7 +69,7 @@ for i = 1:length(characterAngles)
     theta = [characterAngles(i),characterAngles(i)];
     r = [-100,0];
     
-    polarplot(theta,r,'LineStyle','--','Color',[0.5,0.5,0.5])
+    polarplot(theta*pi/180,r,'LineStyle','--','Color',[0.5,0.5,0.5])
     
 end
 
@@ -105,4 +107,4 @@ end
 % 
 % Specific Angle Results
 % -34: "Where is the Rebel Base?" <--- FOUND HIM!!!
-soundsc(getAudioAtAngle(mics,-34),fs)
+soundsc(getAudioAtAngle(mics,34),fs)

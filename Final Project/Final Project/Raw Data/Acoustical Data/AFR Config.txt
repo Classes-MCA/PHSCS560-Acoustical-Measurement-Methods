@@ -1,0 +1,24 @@
+0	PXI1Slot6/ai0	11.074	1.00	AC	1.000	Internal	4.00
+1	PXI1Slot6/ai1	11.542	1.00	AC	1.000	Internal	4.00
+2	PXI1Slot6/ai2	12.969	1.00	AC	1.000	Internal	4.00
+3	PXI1Slot6/ai3	9.140	1.00	AC	1.000	Internal	4.00
+4	PXI1Slot7/ai0	11.486	1.00	AC	1.000	Internal	4.00
+5	PXI1Slot7/ai1	11.519	1.00	AC	1.000	Internal	4.00
+6	PXI1Slot7/ai2	11.004	1.00	AC	1.000	Internal	4.00
+7	PXI1Slot7/ai3	11.104	1.00	AC	1.000	Internal	4.00
+8	PXI1Slot8/ai0	9.823	1.00	AC	1.000	Internal	4.00
+-999	102400	102400	20.000	C:\Users\mander14\Desktop\Final Project	ID	1	FALSE
+-998	FALSE	C:\Users\mander14\Documents\LabVIEW Data	FALSE	0.000	Timed	0	0.0	3:04:23 PM12/2/2020	FALSE	FALSE	Flat	20.000	20000.000	4	dB (re 20 uPa) 	FALSE
+-997	Configuration: Single Rotor
+Recording Type: Ambient
+RPM: 5400
+
+CH 0: -90 Degrees (Mic 207)
+CH 1: -67.5 Degrees (Mic 206)
+CH 2: -45.5 Degrees (Mic 205)
+CH 3: -22.5 Degrees (Mic 204)
+CH 4: 0.00 Degrees (Mic 203)
+CH 5: +22.5 Degrees (Mic 202)
+CH 6: +45.0 Degrees (Mic 201)
+CH 7: +67.5 Degrees (Mic 200)
+CH 8: +90 Degrees (Mic 209)

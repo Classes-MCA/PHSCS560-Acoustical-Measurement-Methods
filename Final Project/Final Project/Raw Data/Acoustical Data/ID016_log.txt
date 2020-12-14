@@ -1,0 +1,48 @@
+----------------------------------------------------------------------------
+Measurement Log File:
+
+File Name:	ID016
+Date:	12/3/2020
+Start Time:	09:22:16.212 AM
+Offset from GMT (h):	-7.0
+Time Zone:	Mountain Standard Time
+File Comments:	Day: 12/3/2020 (Second Day)
+Configuration: Single Rotor
+Recording Type: Matching Thrust 4
+Thrust: 0.207 kgf
+
+CH 0: -90 Degrees (Mic 207)
+CH 1: -67.5 Degrees (Mic 206)
+CH 2: -45.5 Degrees (Mic 201)
+CH 3: -22.5 Degrees (Mic 204)
+CH 4: 0.00 Degrees (Mic 203)
+CH 5: +22.5 Degrees (Mic 202)
+CH 6: +45.0 Degrees (Mic 200)
+CH 7: +67.5 Degrees (Mic 205)
+CH 8: +90 Degrees (Mic 209)
+
+
+Input Pre-Trigger Record Length (sec):	10.000
+Input Post-Trigger Record Length (sec):	40.000
+Actual Pre-Trigger Record Length (sec):	10.000
+Actual Post-Trigger Record Length (sec):	40.000
+
+Number of Channels:	9
+Sampling Frequency (Hz):	102400
+Block Size:	102400
+AFR Software Version:		12.11.2.59
+
+----------------------------------------------------------------------------
+Configured Channel Settings:
+
+CH	Device Number	Sensitivity (mv/EU)	Ext. Gain (Lin.)	Input Range (+/-V)	IEPE Source	IEPE Value (mA)	
+
+0	PXI1Slot6/ai0	11.058	1.00	AC	1.000	Internal	4.00
+1	PXI1Slot6/ai1	11.489	1.00	AC	1.000	Internal	4.00
+2	PXI1Slot6/ai2	10.993	1.00	AC	1.000	Internal	4.00
+3	PXI1Slot6/ai3	9.166	1.00	AC	1.000	Internal	4.00
+4	PXI1Slot7/ai0	11.519	1.00	AC	1.000	Internal	4.00
+5	PXI1Slot7/ai1	11.521	1.00	AC	1.000	Internal	4.00
+6	PXI1Slot7/ai2	11.139	1.00	AC	1.000	Internal	4.00
+7	PXI1Slot7/ai3	13.066	1.00	AC	1.000	Internal	4.00
+8	PXI1Slot8/ai0	9.805	1.00	AC	1.000	Internal	4.00

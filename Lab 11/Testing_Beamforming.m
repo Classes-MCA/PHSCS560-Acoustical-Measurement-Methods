@@ -1,3 +1,7 @@
+usePackage GeneralSignalProcessing; plotStyle()
+usePackage ArrayAnalysis
+usePackage SourceModels
+
 clear; close all; plotStyle()
 
 pathToData = '/Volumes/Mark Drive/Classes/Acoustical-Measurement-Methods/Lab 11/560 Lab 11 Data';
