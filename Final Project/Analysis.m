@@ -112,7 +112,7 @@ end
 %% Analyzing the Spectra
 
 h = figure();
-mics.generateSpectra('BlockSize',fs/2)
+mics.generateSpectra('BlockSize',fs/2,'Output','Autospectral Density')
 mics.compareSpectra()
 
 ax = gca;
@@ -134,10 +134,14 @@ motorWaveform = binfileload(...
 
 motorWaveform = motorWaveform(tstart*fs:tend*fs);
     
-[Gxx_motor, f_motor, ~] = autospec(motorWaveform,fs,'BlockSize',fs/2);
+[Gxx_motor, f_motor, ~] = autospec(motorWaveform,...
+                                   fs,...
+                                   'BlockSize',fs/2,...
+                                   'Output','Autospectral Density');
 [Gxx_total, f_total, ~] = autospec(mics.Microphones(FocusChannel+1).Waveform,...
                                    fs,...
-                                   'BlockSize',fs/2);
+                                   'BlockSize',fs/2,...
+                                   'Output','Autospectral Density');
 
 motorSpectrum = convertToDB(Gxx_motor,'Squared',true);
 totalSpectrum = convertToDB(Gxx_total,'Squared',true);
@@ -177,3 +181,55 @@ hleg.Title.String = 'Dataset';
 hleg.FontSize = 16;
 h.Units = "Inches";
 h.Position = [2,2,10,5];
+
+%% Directivity Comparison
+
+% Getting the data
+
+% From WebPlotDigitizer
+OASPL_NASA = [62.5, 59.0, 53.4, 57.8, 61.2];
+OASPL_NASA_A = [58.8, 54.4, 48.4, 53.8, 58.0];
+angles_NASA = [-45, -22.5, 0, 22.5, 45];
+
+% Weighting
+[W,Gain] = weighting(mics.Microphones(1).NarrowbandFrequencies,'A');
+
+% From the array
+for i = 1:length(angles)
+    
+    OASPL_BYU(i) = mics.Microphones(i).OASPL;
+    OASPL_BYU_A(i) = addDecibels(mics.Microphones(i).NarrowbandSpectrum + Gain);
+    
+end
+
+h = figure();
+subplot(1,3,1)
+polarplot(angles.*pi/180,OASPL_BYU,'b-o','MarkerSize',10)
+hold on
+polarplot(angles_NASA.*pi/180,OASPL_NASA,'g-o','MarkerSize',10)
+ax = gca;
+ax.ThetaLim = [-90,90];
+ax.RLim = [0,90];
+ax.Title.String = 'OASPL';
+ax.Title.FontSize = 20;
+ax.ThetaZeroLocation = 'left';
+ax.ThetaDir = 'clockwise';
+
+subplot(1,3,2)
+polarplot(angles.*pi/180,OASPL_BYU_A,'b-o','MarkerSize',10)
+hold on
+polarplot(angles_NASA.*pi/180,OASPL_NASA_A,'g-o','MarkerSize',10)
+ax = gca;
+ax.ThetaLim = [-90,90];
+ax.RLim = [0,90];
+ax.Title.String = 'OASPL-A';
+ax.Title.FontSize = 20;
+ax.ThetaZeroLocation = 'right';
+ax.ThetaDir = 'counterclockwise';
+
+hleg = legend('Our Data','NASA Data');
+hleg.FontSize = 18;
+hleg.Title.String = 'Dataset';
+hleg.Position = [0.70 0.45 0.1833 0.1478];
+
+h.Position = [2,2,10,5.5];
