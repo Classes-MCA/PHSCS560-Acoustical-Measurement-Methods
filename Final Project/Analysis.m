@@ -46,7 +46,7 @@ thrust = -RCdata{:,10} .* 9.807; % Converting to Newtons from kgf
 dt = 1/fs;
 t = 0:dt:(length(mics.Microphones(FocusChannel+1).Waveform) - 1)*dt;
 
-windowSize = 0.5;
+windowSize = 0.1;
 [~,OASPL,t_OASPL] = getOASPL(mics.Microphones(FocusChannel+1).Waveform,fs,...
                              'TimeWindow',windowSize);
 t_OASPL = t_OASPL + windowSize;
